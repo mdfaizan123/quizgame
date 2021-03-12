@@ -1,0 +1,88 @@
+.start {
+    background: wheat;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.text{
+    color: red;
+    font-size: 36px;
+    display: flex;
+}
+.text span{
+    margin: auto;
+}
+.discription{
+    color: red;
+    font-size: 18px;
+    display: flex;
+}
+.discription span{
+    margin: auto;
+}
+.choose-level {
+    display: flex;
+}
+.choose-level input[type="radio"] {
+    display: none;
+    opacity: 0;
+}
+.choose-level label {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 8px;
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+.choose-level input[type="radio"]:checked + label {
+    background-color: #bfb;
+} 
+
+.start-button {
+    max-width: 300px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.start-button .start-text {
+    display: block;
+    width: 100%;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .2rem;
+    text-align: center;
+    background: #fff;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+.start-button .start-text:hover{
+    background-color: #bfb;
+}
+.name input {
+    width: 300px;
+    border: none;
+    height: calc(1.5em + .75rem + 2px);
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+.name {
+    display: flex;
+    justify-content: center;
+}
+.name input:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}

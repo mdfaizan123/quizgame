@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee">
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>Servlets.Home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Play</servlet-name>
+        <servlet-class>Servlets.Play</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddResult</servlet-name>
+        <servlet-class>Servlets.AddResult</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Result</servlet-name>
+        <servlet-class>Servlets.Result</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Play</servlet-name>
+        <url-pattern>/Play</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddResult</servlet-name>
+        <url-pattern>/AddResult</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Result</servlet-name>
+        <url-pattern>/Result</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>Home</welcome-file>
+    </welcome-file-list>
+</web-app>
